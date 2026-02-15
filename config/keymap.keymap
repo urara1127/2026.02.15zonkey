@@ -1,0 +1,6 @@
+// Sample Keymap for ZMK
+const struct zmk_keymap zmk_keymap[] = {
+    { KEY(Q), KEY(W), KEY(E) },  // Row 1
+    { KEY(A), KEY(S), KEY(D) },  // Row 2
+    { KEY(Z), KEY(X), KEY(C) }   // Row 3
+};
